@@ -34,11 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-
+      
       - name: install Allure CLI tool
         shell: bash
         run: |
           wget https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.18.1/allure-commandline-2.18.1.tgz
           tar -xzf allure-commandline-2.18.1.tgz
           allure-2.18.1/bin/allure generate test-reports
-      
