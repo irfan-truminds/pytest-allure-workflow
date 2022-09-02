@@ -1,0 +1,10 @@
+------Sending request------
+POST http://13.234.212.58:5005/api/v1/network
+Query Params: {}
+Headers: {'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjlrZkhZUy1kaVpYcENONTFmU2tFZiJ9.eyJodHRwOi8vc2hhc3RhLWNsb3VkLm5ldC9vcmdJZCI6MSwiaHR0cDovL3NoYXN0YS1jbG91ZC5uZXQvYXV0aE9yZ0lkIjoib3JnX0RTQ0QxS1ZNOFd0TjljeEUiLCJodHRwOi8vc2hhc3RhLWNsb3VkLm5ldC9wZXJtaXNzaW9ucyI6WyJtYW5hZ2U6b3JnYW5pemF0aW9uIiwibWFuYWdlOnZlbnVlIiwidmlldzpvcmdhbml6YXRpb24iLCJ2aWV3OnZlbnVlIl0sImlzcyI6Imh0dHBzOi8vZGV2LWE2bmp0bHFlLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2Mjk2ZTdhNGFiYTNlNzAwNzA1MDMwOTUiLCJhdWQiOlsiaHR0cDovL3NoYXN0YWRldi5jb20iLCJodHRwczovL2Rldi1hNm5qdGxxZS51cy5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNjYxNzQ3MjI5LCJleHAiOjE2NjI2MTEyMjksImF6cCI6IjRrTGE0NGt2bHozY2tESlI5aW1PUzZBdno5dlp6bXVxIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInBlcm1pc3Npb25zIjpbInZpZXc6b3JnYW5pemF0aW9uIiwidmlldzp2ZW51ZSJdfQ.YD6DOwypxCkll-roGbCrOcV_jx16b9Ua-zvQaclr0fOJyjJt7PLeINUF1KoeTm3eC3kIT1XBSTFae2QwIBSAiYe1ZQzdVokTNR0ZUICuUtv1plCajgXdMlFg7DchZn1pv5NsE4hoxhx3M_euYdPFgvucFMahr4G4ZY-sMkhhdH0sJiR5gZYvTdbTHggwmzZ0SyvcmYvUUCJSbgLcqqZ9I6Wqx_Tfiw_nZR1fjCpDkcj7vQKWzIK91sMkvG_-hNBa00jSntWBy2D5EK_DrVJJ9Dq3gSwqsLx9tQ5eaEZKc8CNGK26mwOJkngAiBqsTD6se-EMZnnGiX5vmbxP_8ENZQ', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000'}
+Request Body: ""
+---------------------------
+------Received response------
+Response status code: 404
+Response Body: {"error":{"statusCode":404,"message":"Request Body Not Defined"}}
+-----------------------------
