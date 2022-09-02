@@ -39,5 +39,5 @@ jobs:
         run: |
           wget https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.18.1/allure-commandline-2.18.1.tgz
           tar -xzf allure-commandline-2.18.1.tgz
-          allure
+          allure-2.18.1/bin/allure
       
