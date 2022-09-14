@@ -34,7 +34,9 @@ jobs:
         name: allure-report-history
         path: ./allure-results/history
     - name: list files
-      run: ls -al
+      run: |
+        ls -al ./allure-results/history
+      
 
 #   # This workflow contains a single job called "build"
 #   build:
