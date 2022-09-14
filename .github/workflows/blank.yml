@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |
+          mkdir -p ./allure-reports/history
           echo 'abc1234' > ./allure-reports/history/trends.json
           echo 'xyz9876' > ./allure-reports/history/data.json
     - name: upload test
