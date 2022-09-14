@@ -33,6 +33,8 @@ jobs:
       with:
         name: allure-report-history
         path: ./allure-results/history
+        workflow_conclusion: completed
+        if_no_artifact_found: ignore
     - name: list files
       run: |
         ls -al ./allure-results/history
