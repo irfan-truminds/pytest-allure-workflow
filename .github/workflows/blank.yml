@@ -20,6 +20,7 @@ jobs:
     steps:
     - run: |
           mkdir -p ./allure-reports/history
+          mkdir ./allure-results
           echo 'abc1234' > ./allure-reports/history/trends.json
           echo 'xyz9876' > ./allure-reports/history/data.json
     - name: upload test
@@ -27,6 +28,13 @@ jobs:
       with:
         name: allure-report-history
         path: ./allure-reports/history
+    - name: Download test
+      uses: dawidd6/action-download-artifact@v2
+      with:
+        name: allure-report-history
+        path: ./allure-results/history
+    - name: list files
+      run: ls -al
 
 #   # This workflow contains a single job called "build"
 #   build:
